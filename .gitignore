@@ -1,0 +1,8 @@
+target/
+venv/
+*.log
+*.log.*
+*.txt
+.DS_Store
+.idea/
+*.class
