@@ -30,24 +30,18 @@ The project is structured using the standard Java Enterprise **Model-DAO-Service
 
 ## ⚙️ Setup & Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/Potluri-Naga-Venkata-Sai/Smart_Delivery_System.git
-    cd Smart_Delivery_System
-    ```
-
-2.  **Database Configuration:**
+1.  **Database Configuration:**
     *   Ensure MySQL is installed and running.
     *   Execute the `src/main/resources/schema.sql` script in your MySQL instance to create the necessary tables.
     *   Update the database credentials in `com.sds.util.DatabaseConnection` to match your local setup.
 
-3.  **Build the Project:**
+2.  **Build the Project:**
     Since it's a Maven project, you can compile and build it using:
     ```bash
     mvn clean install
     ```
 
-4.  **Run the Application:**
+3.  **Run the Application:**
     Execute the main entry point:
     ```bash
     java -cp target/classes com.sds.Main
